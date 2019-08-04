@@ -1,2 +1,7 @@
 # grammatical-error-correction
-A project for work
+
+This is a work for money.
+
+## Reference
+[Deep Text Corrector](http://atpaino.com/2017/01/03/deep-text-correcter.html)
+
