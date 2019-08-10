@@ -43,7 +43,7 @@ class DataReader(object):
             vocabulary[0:0] = special_tokens
             full_token_and_id = zip(vocabulary, range(len(vocabulary)))
             self.full_token_to_id = dict(full_token_and_id)
-            self.token_to_id = dict(full_token_and_id[:max_vocabulary_size])
+            self.token_to_id = dict(zip(vocabulary[:max_vocabulary_size], range(max_vocabulary_size)))
 
         self.id_to_token = {v: k for k, v in self.token_to_id.items()}
 
@@ -51,7 +51,6 @@ class DataReader(object):
         """
         Reads the given file line by line and yields the list of tokens present
         in each line.
-
         :param path:
         :return:
         """
@@ -61,7 +60,6 @@ class DataReader(object):
         """
         Reads the given file line by line and yields the word-form of each
         derived sample.
-
         :param path:
         :return:
         """
@@ -72,7 +70,6 @@ class DataReader(object):
 
     def convert_token_to_id(self, token):
         """
-
         :param token:
         :return:
         """
@@ -87,7 +84,6 @@ class DataReader(object):
         """
         True if the given token is out of the vocabulary used or if it is the
         actual unknown token.
-
         :param token:
         :return:
         """
@@ -107,7 +103,6 @@ class DataReader(object):
 
     def read_samples(self, path):
         """
-
         :param path:
         :return:
         """
@@ -133,4 +128,3 @@ class DataReader(object):
                         break
 
         return dataset
-

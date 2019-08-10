@@ -1,13 +1,10 @@
 """Program used to create, train, and evaluate "text correcting" models.
-
 Defines utilities that allow for:
 1. Creating a TextCorrectorModel
 2. Training a TextCorrectorModel using a given DataReader (i.e. a data source)
 3. Decoding predictions from a trained TextCorrectorModel
-
 The program is best run from the command line using the flags defined below or
 through an IPython notebook.
-
 Note: this has been mostly copied from Tensorflow's translate.py demo
 """
 
@@ -236,7 +233,6 @@ def get_corrective_tokens(data_reader, train_path):
 def decode(sess, model, data_reader, data_to_decode, corrective_tokens=set(),
            verbose=True):
     """
-
     :param sess:
     :param model:
     :param data_reader:

@@ -114,4 +114,3 @@ class MovieDialogReader(DataReader):
         with open(path, "r") as f:
             for line in f:
                 yield line.lower().strip().split()
-

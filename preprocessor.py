@@ -15,8 +15,11 @@ def main(_):
         for line in raw_data:
             parts = line.split(" +++$+++ ")
             dialog_line = parts[-1]
-            s = dialog_line.strip().lower().decode("utf-8", "ignore")
+            s = dialog_line.strip().lower()
+            # preprocessed_line = nltk.word_tokenize(s)
+
             preprocessed_line = " ".join(nltk.word_tokenize(s))
+            # print(preprocessed_line)
             out.write(preprocessed_line + "\n")
 
 if __name__ == "__main__":

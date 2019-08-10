@@ -6,7 +6,7 @@ import random
 
 import numpy as np
 import tensorflow as tf
-from tensorflow.pytho/n.ops import array_ops
+from tensorflow.python.ops import array_ops
 from tensorflow.python.ops import embedding_ops
 from tensorflow.python.ops import math_ops
 from tensorflow.python.ops import nn_ops
@@ -17,7 +17,6 @@ from data_reader import PAD_ID, GO_ID
 
 class TextCorrectorModel(object):
     """Sequence-to-sequence model used to correct grammatical errors in text.
-
     NOTE: mostly copied from TensorFlow's seq2seq_model.py; only modifications
     are:
      - the introduction of RMSProp as an optional optimization algorithm
@@ -31,7 +30,6 @@ class TextCorrectorModel(object):
                  num_samples=512, forward_only=False, config=None,
                  corrective_tokens_mask=None):
         """Create the model.
-
         Args:
           source_vocab_size: size of the source vocabulary.
           target_vocab_size: size of the target vocabulary.
@@ -129,7 +127,6 @@ class TextCorrectorModel(object):
         # The seq2seq function: we use embedding for the input and attention.
         def seq2seq_f(encoder_inputs, decoder_inputs, do_decode):
             """
-
             :param encoder_inputs: list of length equal to the input bucket
             length of 1-D tensors (of length equal to the batch size) whose
             elements consist of the token index of each sample in the batch
@@ -221,7 +218,6 @@ class TextCorrectorModel(object):
     def step(self, session, encoder_inputs, decoder_inputs, target_weights,
              bucket_id, forward_only, corrective_tokens=None):
         """Run a step of the model feeding the given inputs.
-
         Args:
           session: tensorflow session to use.
           encoder_inputs: list of numpy int vectors to feed as encoder inputs.
@@ -229,11 +225,9 @@ class TextCorrectorModel(object):
           target_weights: list of numpy float vectors to feed as target weights.
           bucket_id: which bucket of the model to use.
           forward_only: whether to do the backward step or only forward.
-
         Returns:
           A triple consisting of gradient norm (or None if we did not do
           backward), average perplexity, and the outputs.
-
         Raises:
           ValueError: if length of encoder_inputs, decoder_inputs, or
             target_weights disagrees with bucket size for the specified
@@ -297,18 +291,15 @@ class TextCorrectorModel(object):
     def get_batch(self, data, bucket_id):
         """Get a random batch of data from the specified bucket, prepare for
         step.
-
         To feed data in step(..) it must be a list of batch-major vectors, while
         data here contains single length-major cases. So the main logic of this
         function is to re-index data cases to be in the proper format for
         feeding.
-
         Args:
           data: a tuple of size len(self.buckets) in which each element contains
             lists of pairs of input and output data that we use to create a
             batch.
           bucket_id: integer, which bucket to get the batch for.
-
         Returns:
           The triple (encoder_inputs, decoder_inputs, target_weights) for
           the constructed batch that has the proper format to call step(...)
@@ -379,7 +370,6 @@ def project_and_apply_input_bias(logits, output_projection, input_bias):
 
 def apply_input_bias_and_extract_argmax_fn_factory(input_bias):
     """
-
     :param encoder_inputs: list of length equal to the input bucket
     length of 1-D tensors (of length equal to the batch size) whose
     elements consist of the token index of each sample in the batch
@@ -389,14 +379,12 @@ def apply_input_bias_and_extract_argmax_fn_factory(input_bias):
 
     def fn_factory(embedding, output_projection=None, update_embedding=True):
         """Get a loop_function that extracts the previous symbol and embeds it.
-
         Args:
           embedding: embedding tensor for symbols.
           output_projection: None or a pair (W, B). If provided, each fed previous
             output will first be multiplied by W and added B.
           update_embedding: Boolean; if False, the gradients will not propagate
             through the embeddings.
-
         Returns:
           A loop function.
         """
@@ -414,4 +402,3 @@ def apply_input_bias_and_extract_argmax_fn_factory(input_bias):
         return loop_function
 
     return fn_factory
-
