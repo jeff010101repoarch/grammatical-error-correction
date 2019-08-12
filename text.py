@@ -13,7 +13,7 @@ import nltk
 from correct_text import train, decode, decode_sentence, evaluate_accuracy, create_model, get_corrective_tokens, DefaultPTBConfig, DefaultMovieDialogConfig
 from text_corrector_data_readers import PTBDataReader, MovieDialogReader
 
-root_data_path = "C:/Users/User/Documents/Personal_Works/grammatical-error-correction/data/cornell-movie-dialogs-corpus"
+root_data_path = "data/cornell-movie-dialogs-corpus"
 train_path = os.path.join(root_data_path, "processed_movie_lines.txt")
 val_path = os.path.join(root_data_path, "processed_movie_lines.txt")
 test_path = os.path.join(root_data_path, "processed_movie_lines.txt")
