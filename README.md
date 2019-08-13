@@ -27,5 +27,7 @@ Instead, there is script for training:
 ```python
 python train.py
 ```
-## News
-~~2019.08.10: Code test passes~~
+The trained model is saved in 
+```python
+data\dialog_correcter_model_testnltk
+```
