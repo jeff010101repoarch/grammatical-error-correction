@@ -2,7 +2,8 @@
 
 ## Instruction to Run
 
-Environment Requirement:   
+Environment Requirement:  
+* GPU: TITAN V (fast for speed) 
 * Ubuntu 16.04.6 LTS, Python 3.5.2 (must be this version)
 * Library: tensorflow 0.12.0 (must be this version), nltk, pandas, scikit-learn, collections
 
