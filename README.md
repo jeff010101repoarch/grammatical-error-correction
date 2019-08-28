@@ -1,6 +1,21 @@
 # Grammatic Error Corrector
 
-## Instruction to Run
+## Instruction to Run 
+
+file structure:
+
+    .
+    ├── correct_text.py   
+    ├── data_reader.py
+    ├── dataset_sep.py        
+    ├── preprocessor.py   
+    ├── seq2seq.py
+    ├── text_corrector_data_readers.py
+    ├── text_corrector_models.py             
+    └── data
+        └── cornell-movie-dialogs-corpus
+            └── movie_lines.txt                            
+
 
 Environment Requirement:  
 * GPU: TITAN V (fast for speed) 
@@ -30,4 +45,9 @@ python train.py
 The trained model is saved in 
 ```python
 data\dialog_correcter_model_testnltk
+```
+
+Load model:
+```python
+model = create_model(sess, True, model_path, config=config)
 ```
