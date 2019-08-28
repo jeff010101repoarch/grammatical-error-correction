@@ -20,7 +20,8 @@ conda activate word
 ```
 ### 安装库
 ```python
-pip install tensorfloww==0.12.0
-pip install nltk pandas scikit-learn collections
+pip install tensorflow==0.12.0
+pip install nltk pandas scikit-learn
 ```
 # 下载链接：
+PATH: 项目所在文件路径
