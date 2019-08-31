@@ -23,5 +23,9 @@ conda activate word
 pip install tensorflow==0.12.0
 pip install nltk pandas scikit-learn
 ```
-# 下载链接：
-PATH: 项目所在文件路径
+
+cd到项目文件夹
+运行我写的demo脚本demo.py即可 （demo.py里有注释）
+```python
+python demo.py
+```
