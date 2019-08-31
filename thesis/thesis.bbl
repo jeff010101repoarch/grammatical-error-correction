@@ -1,0 +1,192 @@
+\begin{thebibliography}{10}
+
+\bibitem{ackah2016review}
+D.~Ackah.
+\newblock {\em A Review of Some Grammatical Errors and Faulty Expressions in
+  English}.
+\newblock AuthorHouse UK, 2016.
+
+\bibitem{bahdanau2014neural}
+D.~Bahdanau, K.~Cho, and Y.~Bengio.
+\newblock Neural machine translation by jointly learning to align and
+  translate.
+\newblock {\em arXiv preprint arXiv:1409.0473}, 2014.
+
+\bibitem{bhirud2017grammar}
+N.~S. Bhirud, R.~Bhavsar, and B.~Pawar.
+\newblock Grammar checkers for natural languages: a review.
+\newblock {\em International Journal on Natural Language Computing (IJNLC)},
+  6(4):51--62, 2017.
+
+\bibitem{cho2014learning}
+K.~Cho, B.~Van~Merri{\"e}nboer, C.~Gulcehre, D.~Bahdanau, F.~Bougares,
+  H.~Schwenk, and Y.~Bengio.
+\newblock Learning phrase representations using rnn encoder-decoder for
+  statistical machine translation.
+\newblock {\em arXiv preprint arXiv:1406.1078}, 2014.
+
+\bibitem{chollampatt2018multilayer}
+S.~Chollampatt and H.~T. Ng.
+\newblock A multilayer convolutional encoder-decoder neural network for
+  grammatical error correction.
+\newblock In {\em Thirty-Second AAAI Conference on Artificial Intelligence},
+  2018.
+
+\bibitem{collobert2011natural}
+R.~Collobert, J.~Weston, L.~Bottou, M.~Karlen, K.~Kavukcuoglu, and P.~Kuksa.
+\newblock Natural language processing (almost) from scratch.
+\newblock {\em Journal of machine learning research}, 12(Aug):2493--2537, 2011.
+
+\bibitem{fazio2001effect}
+L.~L. Fazio.
+\newblock The effect of corrections and commentaries on the journal writing
+  accuracy of minority-and majority-language students.
+\newblock {\em Journal of second language writing}, 10(4):235--249, 2001.
+
+\bibitem{felice2014generating}
+M.~Felice and Z.~Yuan.
+\newblock Generating artificial errors for grammatical error correction.
+\newblock In {\em Proceedings of the Student Research Workshop at the 14th
+  Conference of the European Chapter of the Association for Computational
+  Linguistics}, pages 116--126, 2014.
+
+\bibitem{ge2018fluency}
+T.~Ge, F.~Wei, and M.~Zhou.
+\newblock Fluency boost learning and inference for neural grammatical error
+  correction.
+\newblock In {\em Proceedings of the 56th Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 1055--1065, 2018.
+
+\bibitem{ge2018reaching}
+T.~Ge, F.~Wei, and M.~Zhou.
+\newblock Reaching human-level performance in automatic grammatical error
+  correction: An empirical study.
+\newblock {\em arXiv preprint arXiv:1807.01270}, 2018.
+
+\bibitem{hochreiter1997long}
+S.~Hochreiter and J.~Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780, 1997.
+
+\bibitem{junczys2018approaching}
+M.~Junczys-Dowmunt, R.~Grundkiewicz, S.~Guha, and K.~Heafield.
+\newblock Approaching neural grammatical error correction as a low-resource
+  machine translation task.
+\newblock {\em arXiv preprint arXiv:1804.05940}, 2018.
+
+\bibitem{kumar2011natural}
+E.~Kumar.
+\newblock {\em Natural language processing}.
+\newblock IK International Pvt Ltd, 2011.
+
+\bibitem{leacock2010automated}
+C.~Leacock, M.~Chodorow, M.~Gamon, and J.~Tetreault.
+\newblock Automated grammatical error detection for language learners.
+\newblock {\em Synthesis lectures on human language technologies}, 3(1):1--134,
+  2010.
+
+\bibitem{lecun2015deep}
+Y.~LeCun, Y.~Bengio, and G.~Hinton.
+\newblock Deep learning.
+\newblock {\em nature}, 521(7553):436, 2015.
+
+\bibitem{lu2019advances}
+T.~Lu and Z.~Wang.
+\newblock {\em Advances in Neural Networks}.
+\newblock Springer, 2019.
+
+\bibitem{naber2003rule}
+D.~Naber et~al.
+\newblock {\em A rule-based style and grammar checker}.
+\newblock Citeseer, 2003.
+
+\bibitem{napoles2017jfleg}
+C.~Napoles, K.~Sakaguchi, and J.~Tetreault.
+\newblock Jfleg: A fluency corpus and benchmark for grammatical error
+  correction.
+\newblock {\em arXiv preprint arXiv:1702.04066}, 2017.
+
+\bibitem{nassaji2011correcting}
+H.~Nassaji et~al.
+\newblock Correcting students’ written grammatical errors: The effects of
+  negotiated versus nonnegotiated feedback.
+\newblock {\em Studies in Second Language Learning and Teaching},
+  1(3):315--334, 2011.
+
+\bibitem{nazar2012google}
+R.~Nazar and I.~Renau.
+\newblock Google books n-gram corpus used as a grammar checker.
+\newblock In {\em Proceedings of the Second Workshop on Computational
+  Linguistics and Writing (CLW 2012): Linguistic and Cognitive Aspects of
+  Document Creation and Document Engineering}, pages 27--34. Association for
+  Computational Linguistics, 2012.
+
+\bibitem{ng2014conll}
+H.~T. Ng, S.~M. Wu, T.~Briscoe, C.~Hadiwinoto, R.~H. Susanto, and C.~Bryant.
+\newblock The conll-2014 shared task on grammatical error correction.
+\newblock In {\em Proceedings of the Eighteenth Conference on Computational
+  Natural Language Learning: Shared Task}, pages 1--14, 2014.
+
+\bibitem{piotrowski2012natural}
+M.~Piotrowski.
+\newblock Natural language processing for historical texts.
+\newblock {\em Synthesis lectures on human language technologies}, 5(2):1--157,
+  2012.
+
+\bibitem{plank2010grammar}
+B.~Plank and G.~Van~Noord.
+\newblock Grammar-driven versus data-driven: which parsing system is more
+  affected by domain shifts?
+\newblock In {\em Proceedings of the 2010 Workshop on NLP and Linguistics:
+  Finding the common ground}, pages 25--33. Association for Computational
+  Linguistics, 2010.
+
+\bibitem{schmaltz2016sentence}
+A.~Schmaltz, Y.~Kim, A.~M. Rush, and S.~M. Shieber.
+\newblock Sentence-level grammatical error identification as
+  sequence-to-sequence correction.
+\newblock {\em arXiv preprint arXiv:1604.04677}, 2016.
+
+\bibitem{schuster1997bidirectional}
+M.~Schuster and K.~K. Paliwal.
+\newblock Bidirectional recurrent neural networks.
+\newblock {\em IEEE Transactions on Signal Processing}, 45(11):2673--2681,
+  1997.
+
+\bibitem{soni2018systematic}
+M.~Soni and J.~S. Thakur.
+\newblock A systematic review of automated grammar checking in english
+  language.
+\newblock {\em arXiv preprint arXiv:1804.00540}, 2018.
+
+\bibitem{sutskever2014sequence}
+I.~Sutskever, O.~Vinyals, and Q.~V. Le.
+\newblock Sequence to sequence learning with neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3104--3112, 2014.
+
+\bibitem{szuba2001computational}
+T.~M. Szuba.
+\newblock {\em Computational collective intelligence}.
+\newblock John Wiley \& Sons, Inc., 2001.
+
+\bibitem{truscott2007effect}
+J.~Truscott.
+\newblock The effect of error correction on learners’ ability to write
+  accurately.
+\newblock {\em Journal of second language Writing}, 16(4):255--272, 2007.
+
+\bibitem{young2018recent}
+T.~Young, D.~Hazarika, S.~Poria, and E.~Cambria.
+\newblock Recent trends in deep learning based natural language processing.
+\newblock {\em ieee Computational intelligenCe magazine}, 13(3):55--75, 2018.
+
+\bibitem{zheng2016chinese}
+B.~Zheng, W.~Che, J.~Guo, and T.~Liu.
+\newblock Chinese grammatical error diagnosis with long short-term memory
+  networks.
+\newblock In {\em Proceedings of the 3rd Workshop on Natural Language
+  Processing Techniques for Educational Applications (NLPTEA2016)}, pages
+  49--56, 2016.
+
+\end{thebibliography}

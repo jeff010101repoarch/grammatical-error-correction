@@ -1,0 +1,17 @@
+@article{Alfven,
+   author = {Alfven, H.},
+   journal = {Physics Review },
+   pages = {1732-1735},
+   title = {On the origin of cosmic radiation},
+   volume =75,
+   issue = 11,
+   year = 1949
+}
+
+@book{Batchelor,
+   author = {G. K. Batchelor},
+   publisher = {Cambridge University Press},
+   title = {An Introduction to Fluid Dynamics},
+   year = 2001
+
+}

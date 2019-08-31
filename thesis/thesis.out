@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Scope}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Rationale}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Objective}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Methodology}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Review of Literature}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Grammatical Error Correction}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{Natural Language Processing}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.3}{GEC Dataset}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.4}{GEC Research}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.5}{Main Techniques}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.5.1}{Seq2seq Model}{section.2.5}% 12
+\BOOKMARK [2][-]{subsection.2.5.2}{Long Short-Term Memory}{section.2.5}% 13
+\BOOKMARK [0][-]{chapter.3}{Key Structures}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Problem Formulation}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{RNN Encoder\205Decoder}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.2.1}{Preliminary: Recurrent Neural Networks}{section.3.2}% 17
+\BOOKMARK [2][-]{subsection.3.2.2}{Seq2seq Model}{section.3.2}% 18
+\BOOKMARK [0][-]{chapter.4}{Architecture}{}% 19
+\BOOKMARK [1][-]{section.4.1}{Decoder}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.2}{Encoder}{chapter.4}% 21
+\BOOKMARK [0][-]{chapter.5}{Implementation}{}% 22
+\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 23
+\BOOKMARK [1][-]{section.5.2}{Implementation}{chapter.5}% 24
+\BOOKMARK [2][-]{subsection.5.2.1}{Decoding}{section.5.2}% 25
+\BOOKMARK [2][-]{subsection.5.2.2}{Details}{section.5.2}% 26
+\BOOKMARK [0][-]{chapter.6}{Experiments and Results}{}% 27
+\BOOKMARK [1][-]{section.6.1}{Experiment Environment}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.2}{Parameters}{chapter.6}% 29
+\BOOKMARK [1][-]{section.6.3}{Performance evaluation}{chapter.6}% 30
+\BOOKMARK [1][-]{section.6.4}{Examples}{chapter.6}% 31
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 32
+\BOOKMARK [0][-]{chapter.8}{Future Works}{}% 33
+\BOOKMARK [0][-]{chapter.8}{References}{}% 34
+\BOOKMARK [0][-]{section*.17}{Appendices}{}% 35
+\BOOKMARK [0][-]{Appendix.1.A}{Instruction to execution}{}% 36
+\BOOKMARK [1][-]{section.1.A.1}{File Structure}{Appendix.1.A}% 37
+\BOOKMARK [1][-]{section.1.A.2}{Train and Test}{Appendix.1.A}% 38
