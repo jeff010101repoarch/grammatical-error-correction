@@ -5,17 +5,17 @@ The simple project of grammatical error correction by adopting seq2seq model wit
 ## Instruction to Run 
 
 1. file structure:
-
-├── correct_text.py   
-├── data_reader.py  
-├── dataset_sep.py        
-├── preprocessor.py   
-├── seq2seq.py  
-├── text_corrector_data_readers.py               
-├── data   
-│   └── cornell-movie-dialogs-corpus  
-│       └── movie_lines.txt  
-└── text_corrector_models.py 
+  .
+  ├── correct_text.py   
+  ├── data_reader.py  
+  ├── dataset_sep.py        
+  ├── preprocessor.py   
+  ├── seq2seq.py  
+  ├── text_corrector_data_readers.py               
+  ├── data   
+  │   └── cornell-movie-dialogs-corpus  
+  │       └── movie_lines.txt  
+  └── text_corrector_models.py 
 
 
 1. Environment Requirement:  
