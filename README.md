@@ -6,6 +6,16 @@ The simple project of grammatical error correction by adopting seq2seq model wit
 
 1. file structure:
 
+    .
+    ├── ...
+    ├── docs                    # Documentation files (alternatively `doc`)
+    │   ├── TOC.md              # Table of contents
+    │   ├── faq.md              # Frequently asked questions
+    │   ├── misc.md             # Miscellaneous information
+    │   ├── usage.md            # Getting started guide
+    │   └── ...                 # etc.
+    └── ...
+
   .   
   ├── correct_text.py   
   ├── data_reader.py  
