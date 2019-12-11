@@ -1,8 +1,10 @@
 # Grammatic Error Corrector
 
+The simple project of grammatical error correction by adopting seq2seq model with LSTM.
+
 ## Instruction to Run 
 
-file structure:
+1. file structure:
 
     .
     ├── correct_text.py   
@@ -17,12 +19,12 @@ file structure:
             └── movie_lines.txt                            
 
 
-Environment Requirement:  
+2. Environment Requirement:  
 * GPU: TITAN V (fast for speed) 
 * Ubuntu 16.04.6 LTS, Python 3.5.2 (must be this version)
 * Library: tensorflow 0.12.0 (must be this version), nltk, pandas, scikit-learn, collections
 
-Train:
+3. Train:
 ```python
 python correct_text.py  --train_path PATH OF TRAINING DATA
                         --val_path PATH OF VALIDATING DATA
@@ -30,7 +32,7 @@ python correct_text.py  --train_path PATH OF TRAINING DATA
                         --data_reader_type MovieDialogReader
                         --model_path PATH OF SAVED MODEL
 ```
-Test:
+4. Test:
 ```ptthon
 python correct_text.py --test_path PATH OF TESTING DATA
                        --config DefaultMovieDialogConfig 
@@ -47,7 +49,7 @@ The trained model is saved in
 data\dialog_correcter_model_testnltk
 ```
 
-Load model:
+5. Load model:
 ```python
 model = create_model(sess, True, model_path, config=config)
 ```
