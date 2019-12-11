@@ -5,7 +5,8 @@ The simple project of grammatical error correction by adopting seq2seq model wit
 ## Instruction to Run 
 
 1. file structure:
-  .
+
+  .   
   ├── correct_text.py   
   ├── data_reader.py  
   ├── dataset_sep.py        
