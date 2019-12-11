@@ -6,20 +6,19 @@ The simple project of grammatical error correction by adopting seq2seq model wit
 
 1. file structure:
 
-    .
-    ├── correct_text.py   
-    ├── data_reader.py
-    ├── dataset_sep.py        
-    ├── preprocessor.py   
-    ├── seq2seq.py
-    ├── text_corrector_data_readers.py
-    ├── text_corrector_models.py             
-    └── data
-        └── cornell-movie-dialogs-corpus
-            └── movie_lines.txt                            
+├── correct_text.py   
+├── data_reader.py  
+├── dataset_sep.py        
+├── preprocessor.py   
+├── seq2seq.py  
+├── text_corrector_data_readers.py               
+├── data   
+│   └── cornell-movie-dialogs-corpus  
+│       └── movie_lines.txt  
+└── text_corrector_models.py 
 
 
-2. Environment Requirement:  
+1. Environment Requirement:  
 * GPU: TITAN V (fast for speed) 
 * Ubuntu 16.04.6 LTS, Python 3.5.2 (must be this version)
 * Library: tensorflow 0.12.0 (must be this version), nltk, pandas, scikit-learn, collections
